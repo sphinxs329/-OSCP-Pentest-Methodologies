@@ -30,7 +30,8 @@ find / -user root -perm -4000-exec ls -ldb {} \;
 - [more/less](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/less-more.md)
 - nano
 - [cp/mv](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/cp-move.md)
+- [python/perl/ruby/lua/etc](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/python-perl-ruby-lua-etc.md)
+- [tcpdump(未验证)](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/tcpdump.md)
 - [其他脚本文件](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/other-script-file.md)
-
 # Referer
 - https://github.com/swisskyrepo/PayloadsAllTheThings
