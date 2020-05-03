@@ -6,6 +6,8 @@ some tips for oscp
 
 # Linux PE
 - https://github.com/rebootuser/LinEnum
+- https://github.com/AlessandroZ/BeRoot
+- https://github.com/mzet-/linux-exploit-suggester
 
 # Referer
 - https://github.com/swisskyrepo/PayloadsAllTheThings
