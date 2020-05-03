@@ -11,8 +11,9 @@ vim.tiny /etc/shadow
 
 此外，我们还可以通过Vim运行shell来执行只有root才能完成的操作。
 
-
+```
 vim.tiny
 # Press ESC key
 :set shell=/bin/sh
 :shell
+```
