@@ -29,7 +29,7 @@ find / -user root -perm -4000-exec ls -ldb {} \;
 - [bash](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/bash.md)
 - [more/less](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/less-more.md)
 - nano
-- cp/mv
+- [cp/mv](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/cp-move.md)
 - [其他脚本文件](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/other-script-file.md)
 
 # Referer
