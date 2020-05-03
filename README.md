@@ -28,7 +28,7 @@ todo:https://www.anquanke.com/post/id/86979 参考这篇文章
 - more
 - less
 - nano
-- cp
+- cp/mv
 
 # Referer
 - https://github.com/swisskyrepo/PayloadsAllTheThings
