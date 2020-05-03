@@ -20,15 +20,17 @@ find / -user root -perm -4000-print2>/dev/null
 find / -user root -perm -4000-exec ls -ldb {} \;
 ```
 已知的可用来提权的linux可行性的文件列表如下：
-todo:https://www.anquanke.com/post/id/86979 参考这篇文章
+
+> Referer: https://www.hackingarticles.in/linux-privilege-escalation-using-suid-binaries/
+
 - [nmap](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/nmap.md)
-- vim/vi
+- [vim/vi](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/vim.md)
 - [find](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/find.md)
-- bash
-- more
-- less
+- [bash](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/bash.md)
+- [more/less](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/less-more.md)
 - nano
 - cp/mv
+- [其他脚本文件](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/other-script-file.md)
 
 # Referer
 - https://github.com/swisskyrepo/PayloadsAllTheThings
