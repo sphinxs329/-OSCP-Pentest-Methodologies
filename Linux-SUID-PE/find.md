@@ -1,4 +1,4 @@
-# 确认 nmap 有 root 执行权限
+# 确认 find 有 root 执行权限
 执行命令
 ```
 /usr/bin/find /tmp -exec whoami \;
