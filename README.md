@@ -5,6 +5,7 @@ some tips for oscp
 
 
 # Linux PE
+## 信息收集
 - https://github.com/rebootuser/LinEnum
 - https://github.com/AlessandroZ/BeRoot
 - https://github.com/mzet-/linux-exploit-suggester
