@@ -22,7 +22,7 @@ find / -user root -perm -4000-exec ls -ldb {} \;
 已知的可用来提权的linux可行性的文件列表如下：
 todo:https://www.anquanke.com/post/id/86979 参考这篇文章
 - [nmap](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/nmap.md)
-- vim
+- vim/vi
 - [find](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/find.md)
 - bash
 - more
