@@ -1,3 +1,3 @@
-一个 ASP 的木马，用于执行系统命令：aspcmd.asp(或asp.cmd.aspx)
+一个 ASP 的木马，用于执行系统命令：[aspcmd.asp](https://github.com/Jewel591/OSCP/blob/master/ASP-reverse-shell/aspcmd.asp)(或asp.cmd.aspx)
 
-> 遇到的一个坑：.asp 无法运行，系统会报 500 错误，修改为.aspx 后绕过限制
+> 遇到的一个坑：`.asp` 无法运行，系统会报 500 错误，修改为`.aspx` 后绕过限制(~OSCP 10.11.1.13)
