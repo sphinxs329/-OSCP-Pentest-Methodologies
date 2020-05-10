@@ -45,6 +45,11 @@ find / -user root -perm -4000-exec ls -ldb {} \;
 - [其他脚本文件](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/other-script-file.md)
 
 ## Windows 提权
+### 提权方法
+1. 不带引号的服务路径
+2. 易受攻击的服务（>）
+3. Windows AlwaysInstallElevated 策略
 
-### Accesschk
-### [BeRoot](https://github.com/AlessandroZ/BeRoot/tree/master/Windows)
+## 提权工具
+1. [Accesschk.exe](https://github.com/Jewel591/OSCP/blob/master/PostExploit/WindowsPE/Accesschk.md)
+2. [BeRoot](https://github.com/AlessandroZ/BeRoot/tree/master/Windows)
