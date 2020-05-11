@@ -46,9 +46,9 @@ find / -user root -perm -4000-exec ls -ldb {} \;
 
 ## Windows 提权
 ### 提权方法
-1. 不带引号的服务路径
-2. 易受攻击的服务（>）
-3. Windows AlwaysInstallElevated 策略
+1. [不带引号的服务路径](https://github.com/Jewel591/OSCP/blob/master/PostExploit/WindowsPE/PathwithoutQuotation.md)
+2. [易受攻击的服务](https://github.com/Jewel591/OSCP/blob/master/PostExploit/WindowsPE/Accesschk.md)
+3. [Windows AlwaysInstallElevated 策略](https://github.com/Jewel591/OSCP/blob/master/PostExploit/WindowsPE/AlwaysInstallElevated.md)
 4. Unattended Installs
 5. [内核提权](https://github.com/Jewel591/OSCP/blob/master/PostExploit/WindowsPE/Kernel_Exploit.md)
 
