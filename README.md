@@ -49,6 +49,8 @@ find / -user root -perm -4000-exec ls -ldb {} \;
 1. 不带引号的服务路径
 2. 易受攻击的服务（>）
 3. Windows AlwaysInstallElevated 策略
+4. Unattended Installs
+5. [内核提权](https://github.com/Jewel591/OSCP/blob/master/PostExploit/WindowsPE/Kernel_Exploit.md)
 
 ## 提权工具
 1. [Accesschk.exe](https://github.com/Jewel591/OSCP/blob/master/PostExploit/WindowsPE/Accesschk.md)
