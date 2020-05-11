@@ -55,3 +55,4 @@ find / -user root -perm -4000-exec ls -ldb {} \;
 ## 提权工具
 1. [Accesschk.exe](https://github.com/Jewel591/OSCP/blob/master/PostExploit/WindowsPE/Accesschk.md)
 2. [BeRoot](https://github.com/AlessandroZ/BeRoot/tree/master/Windows)
+3. [winPEAS](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/winPEAS/winPEASexe/winPEAS/bin/Obfuscated%20Releases)
