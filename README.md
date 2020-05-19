@@ -5,7 +5,7 @@ some tips for oscp
 [php-reverse-shell-README.md](https://github.com/Jewel591/OSCP/blob/master/PHP-reverse-shell/README.md)
 
 Referer：
-- https://github.com/swisskyrepo/PayloadsAllTheThings
+-[https://github.com/swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/735b0d2277b39cda75af2855362fd5e8ae50b3db/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md)
 
 ## ASP-reverse-shell
 [asp-reverse-shell-README.md](https://github.com/Jewel591/OSCP/blob/master/ASP-reverse-shell/README.md)
