@@ -52,7 +52,8 @@ find / -user root -perm -4000-exec ls -ldb {} \;
 4. Unattended Installs
 5. [内核提权](https://github.com/Jewel591/OSCP/blob/master/PostExploit/WindowsPE/Kernel_Exploit.md)
 
-## 提权工具
+## windows 服务提权工具
 1. [Accesschk.exe](https://github.com/Jewel591/OSCP/blob/master/PostExploit/WindowsPE/Accesschk.md)
 2. [BeRoot](https://github.com/AlessandroZ/BeRoot/tree/master/Windows)
 3. [winPEAS](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/winPEAS/winPEASexe/winPEAS/bin/Obfuscated%20Releases)
+4. [windows-exploit-suggester](https://github.com/AonCyberLabs/Windows-Exploit-Suggester) > [教程](https://www.notion.so/Windows-60898e79f361472ea1939775d4536eb3)
