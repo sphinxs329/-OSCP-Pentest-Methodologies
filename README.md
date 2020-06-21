@@ -1,24 +1,22 @@
 some tips for oscp
-# 边界突破——Web服务
+# 边界突破
+## Web服务
+- [PHP突破及反弹shell](https://github.com/Jewel591/OSCP/blob/master/PHP-reverse-shell/README.md)
 
-## PHP-reverse-shell
-[php-reverse-shell-README.md](https://github.com/Jewel591/OSCP/blob/master/PHP-reverse-shell/README.md)
+- [ASP突破及反弹shell](https://github.com/Jewel591/OSCP/blob/master/ASP-reverse-shell/README.md)
 
-Referer：
--[https://github.com/swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/735b0d2277b39cda75af2855362fd5e8ae50b3db/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md)
+## 系统服务
 
-## ASP-reverse-shell
-[asp-reverse-shell-README.md](https://github.com/Jewel591/OSCP/blob/master/ASP-reverse-shell/README.md)
+## 反弹shell
+- 各种shell的姿势汇总：[https://github.com/swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/735b0d2277b39cda75af2855362fd5e8ae50b3db/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md)
 
-# 边界突破——系统服务
-
-# 后渗透
+# 提权
 ## Linux 提权
-### 信息收集
+Linux 信息收集
 - https://github.com/rebootuser/LinEnum
 - https://github.com/AlessandroZ/BeRoot
 - https://github.com/mzet-/linux-exploit-suggester
-### SUID 提权
+Linux SUID 提权
 suid 辅助信息收集脚本：
 [linux-pe-suid.sh](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/linux-pe-suid.sh)
 
@@ -45,14 +43,14 @@ find / -user root -perm -4000-exec ls -ldb {} \;
 - [其他脚本文件](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/other-script-file.md)
 
 ## Windows 提权
-### 提权方法
+提权方法：
 1. [不带引号的服务路径](https://github.com/Jewel591/OSCP/blob/master/PostExploit/WindowsPE/PathwithoutQuotation.md)
 2. [易受攻击的服务](https://github.com/Jewel591/OSCP/blob/master/PostExploit/WindowsPE/Accesschk.md)
 3. [Windows AlwaysInstallElevated 策略](https://github.com/Jewel591/OSCP/blob/master/PostExploit/WindowsPE/AlwaysInstallElevated.md)
 4. Unattended Installs
 5. [内核提权](https://github.com/Jewel591/OSCP/blob/master/PostExploit/WindowsPE/Kernel_Exploit.md)
 
-## windows 服务提权工具
+windows 服务提权工具：
 1. [Accesschk.exe](https://github.com/Jewel591/OSCP/blob/master/PostExploit/WindowsPE/Accesschk.md)
 2. [BeRoot](https://github.com/AlessandroZ/BeRoot/tree/master/Windows)
 3. [winPEAS](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/winPEAS/winPEASexe/winPEAS/bin/Obfuscated%20Releases)
