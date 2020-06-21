@@ -1,4 +1,6 @@
 some tips for oscp
+- [oscp vpn不稳定？每次都要输入密码很麻烦？点我~](https://github.com/Jewel591/OSCP-Tips/blob/master/others/%E5%85%B3%E4%BA%8Eopenvpn.md)
+
 # 边界突破
 ## Web服务
 - [PHP突破及反弹shell](https://github.com/Jewel591/OSCP/blob/master/PHP-reverse-shell/README.md)
@@ -6,6 +8,8 @@ some tips for oscp
 - [ASP突破及反弹shell](https://github.com/Jewel591/OSCP/blob/master/ASP-reverse-shell/README.md)
 
 ## 系统服务
+## 暴力破解
+- [暴力破解方法汇总](https://github.com/Jewel591/OSCP-Tips/blob/master/Brute-Force.md)
 
 ## 反弹shell
 - 各种shell的姿势汇总：[https://github.com/swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/735b0d2277b39cda75af2855362fd5e8ae50b3db/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md)
