@@ -21,7 +21,8 @@ Linux 信息收集
 - https://github.com/AlessandroZ/BeRoot
 - https://github.com/mzet-/linux-exploit-suggester
 
-Linux SUID 提权
+- Linux SUID 提权
+
 suid 辅助信息收集脚本：
 [linux-pe-suid.sh](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/linux-pe-suid.sh)
 
