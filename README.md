@@ -1,5 +1,5 @@
 some tips for oscp
-# WEB 边界突破
+# 边界突破——Web服务
 
 ## PHP-reverse-shell
 [php-reverse-shell-README.md](https://github.com/Jewel591/OSCP/blob/master/PHP-reverse-shell/README.md)
@@ -10,7 +10,7 @@ Referer：
 ## ASP-reverse-shell
 [asp-reverse-shell-README.md](https://github.com/Jewel591/OSCP/blob/master/ASP-reverse-shell/README.md)
 
-# SYS 边界突破
+# 边界突破——系统服务
 
 # 后渗透
 ## Linux 提权
