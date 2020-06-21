@@ -1,4 +1,4 @@
-some tips for oscp
+OSCP备考的干货知识~
 - [oscp lab vpn不稳定？每次都要输入密码很麻烦？点我~](https://github.com/Jewel591/OSCP-Tips/blob/master/others/%E5%85%B3%E4%BA%8Eopenvpn.md)
 
 # 边界突破
