@@ -45,8 +45,6 @@ find / -user root -perm -4000-exec ls -ldb {} \;
 | [chmod](https://github.com/Jewel591/OSCP-Tips/blob/master/Linux-SUID-PE/chmod.md)  | dialog   | file | 
 | [chown](https://github.com/Jewel591/OSCP-Tips/blob/master/Linux-SUID-PE/chown.md)  | diff  | [find](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/find.md) | 
 | [docker](https://github.com/Jewel591/OSCP-Tips/blob/master/Linux-SUID-PE/docker.md)  | dmsetup  | flock | 
-
----
 |  fmt  | jq  | nano  |
 |  fold |  | jrunscript  | [nmap](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/nmap.md)  |
 |  gimp  | ksh  | nice |
@@ -60,8 +58,6 @@ find / -user root -perm -4000-exec ls -ldb {} \;
 | ionice  | make | php  |
 |  ip | [more](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/less-more.md)  | pico  |
 |  jjs | [mv](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/cp-move.md)  | [python](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/python-perl-ruby-lua-etc.md) |
-
----
 |  readelf | setarch  | strings  |
 |  restic  | shuf  | sysctl  |
 | rlwrap  | soelim  | systemctl |
