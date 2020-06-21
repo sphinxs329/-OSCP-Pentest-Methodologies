@@ -33,126 +33,51 @@ find / -user root -perm -4000-print2>/dev/null
 find / -user root -perm -4000-exec ls -ldb {} \;
 ```
 已知的可用来提权的linux可行性的文件列表如下：
+|  表头   | 表头  | 表头  | 
+|  ----  | ---- | ----  | 
+| [ash](https://github.com/Jewel591/OSCP-Tips/blob/master/Linux-SUID-PE/ash.md)  | chroot | docker |
+| [base32](https://github.com/Jewel591/OSCP-Tips/blob/master/Linux-SUID-PE/base64.md)  | csh | emacs | 
+| [base64](https://github.com/Jewel591/OSCP-Tips/blob/master/Linux-SUID-PE/base64.md)  | curl  | gdb | 
+| [bash](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/bash.md)  | cut  | env | 
+| [busybox](https://github.com/Jewel591/OSCP-Tips/blob/master/Linux-SUID-PE/busybox.md)  | dash  | eqn | 
+| [cp](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/cp-move.md)  | date  | expand | 
+| [cat](https://github.com/Jewel591/OSCP-Tips/blob/master/Linux-SUID-PE/cat.md)  | dd  | expect | 
+| [chmod](https://github.com/Jewel591/OSCP-Tips/blob/master/Linux-SUID-PE/chmod.md)  | dialog   | file | 
+| [chown](https://github.com/Jewel591/OSCP-Tips/blob/master/Linux-SUID-PE/chown.md)  | diff  | [find](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/find.md) | 
+| [docker](https://github.com/Jewel591/OSCP-Tips/blob/master/Linux-SUID-PE/docker.md)  | dmsetup  | flock | 
 
-- [ash](https://github.com/Jewel591/OSCP-Tips/blob/master/Linux-SUID-PE/ash.md)
-- [base32](https://github.com/Jewel591/OSCP-Tips/blob/master/Linux-SUID-PE/base64.md)
-- [base64](https://github.com/Jewel591/OSCP-Tips/blob/master/Linux-SUID-PE/base64.md)
-- [bash](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/bash.md)
-- [busybox](https://github.com/Jewel591/OSCP-Tips/blob/master/Linux-SUID-PE/busybox.md)
-- [cp](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/cp-move.md)
-- [cat](https://github.com/Jewel591/OSCP-Tips/blob/master/Linux-SUID-PE/cat.md)
-- [chmod](https://github.com/Jewel591/OSCP-Tips/blob/master/Linux-SUID-PE/chmod.md)
-- [chown](https://github.com/Jewel591/OSCP-Tips/blob/master/Linux-SUID-PE/chown.md)
-- [docker](https://github.com/Jewel591/OSCP-Tips/blob/master/Linux-SUID-PE/docker.md)
+---
+|  fmt  | jq  | nano  |
+|  fold |  | jrunscript  | [nmap](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/nmap.md)  |
+|  gimp  | ksh  | nice |
+|  grep | ksshell  | nl  |
+|  gtester  | ld.so | node  |
+|  hd | [less](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/less-more.md)  | nohup  |
+|  head | logsave  | od |
+| hexdump  | look  | openssl  |
+|  highlight | lwp-download  |[perl](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/python-perl-ruby-lua-etc.md) |
+|  iconv | lwp-request | pg  |
+| ionice  | make | php  |
+|  ip | [more](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/less-more.md)  | pico  |
+|  jjs | [mv](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/cp-move.md)  | [python](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/python-perl-ruby-lua-etc.md) |
 
-- chroot
-- csh
-- curl
-- cut
-- dash
-- date
-- dd
-- dialog 
-- diff
-- dmsetup
-- docker
-- emacs
-- env
-- eqn
-- expand
-- expect
-- file
-- [find](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/find.md)
-- flock
-- fmt
-- fold
-- gdb
-- gimp
-- grep
-- gtester
-- hd
-- head
-- hexdump
-- highlight
-- iconv
-- ionice
-- ip
-- jjs
-- jq
-- jrunscript
-- ksh
-- ksshell
-- ld.so
-- [less](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/less-more.md)
-- logsave
-- look
-- lwp-download
-- lwp-request
-- make
-- [more](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/less-more.md)
-- [mv](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/cp-move.md)
-- nano
-- [nmap](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/nmap.md)
-- nice
-- nl
-- node
-- nohup
-- od
-- openssl
-- [perl](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/python-perl-ruby-lua-etc.md)
-- pg
-- php
-- pico
-- [python](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/python-perl-ruby-lua-etc.md)
-- readelf
-- restic 
-- rlwrap
-- rpm
-- rpmquery
-- rsync
-- run-parts
-- rvim
-- sed
-- setarch
-- shuf
-- soelim
-- sort
-- start-
-- stop-
-- daemon
-- stdbuf
-- strace
-- strings
-- sysctl
-- systemctl
-- tac 
-- tail
-- taskset
-- tclsh 
-- [tcpdump(未验证)](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/tcpdump.md)
-- tee
-- tftp
-- time
-- timeout
-- ul
-- unexpand
-- uniq
-- unshare
-- uudecode
-- uuencode
-- [vim/vi](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/vim.md)
-- watch
-- wget
-- xargs
-- xxd
-- XZ
-- zsh
-- zsoelim
+---
+|  readelf | setarch  | strings  |
+|  restic  | shuf  | sysctl  |
+| rlwrap  | soelim  | systemctl |
+| rpm  | sort  |tac  |
+|  rpmquery |start  | tail  |
+| rsync  | stop | taskset  |
+|  run-parts | daemon  | tclsh  |
+| rvim  | stdbuf  | [tcpdump(未验证)](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/tcpdump.md) |
+| sed  | strace | tee  |
+| tftp | uniq  | watch |
+|  time | unshare  | wget  |
+|  timeout | uudecode |xargs  |
+| ul  | uuencode  | xxd |
+|  unexpand | [vim/vi](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/vim.md) | xz  |
+|  zsh | zsoelim  | [其他脚本文件](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/other-script-file.md)  |
 
-
-
-- [python/perl/ruby/lua/etc](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/python-perl-ruby-lua-etc.md)
-- [其他脚本文件](https://github.com/Jewel591/OSCP/blob/master/Linux-SUID-PE/other-script-file.md)
 
 ## Windows 提权
 提权方法：
