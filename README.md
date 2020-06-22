@@ -77,15 +77,22 @@ find / -user root -perm -4000-exec ls -ldb {} \;
 
 
 ## Windows 提权
+Windows系统与版本号对比：
+
+![](https://github.com/Jewel591/OSCP-Tips/blob/master/images/Windows%20%E7%B3%BB%E7%BB%9F%E7%89%88%E6%9C%AC.png)
+
 提权方法：
 - [0x1 收集Windows系统信息](https://github.com/Jewel591/OSCP-Tips/blob/master/PostExploit/WindowsPE/systeminfo.md)
 - [0x2 不带引号的服务路径](https://github.com/Jewel591/OSCP/blob/master/PostExploit/WindowsPE/PathwithoutQuotation.md)
 - [0x3 易受攻击的服务](https://github.com/Jewel591/OSCP/blob/master/PostExploit/WindowsPE/Accesschk.md)
 - [0x4 查找主机上的明文密码](https://github.com/Jewel591/OSCP-Tips/blob/master/PostExploit/WindowsPE/ClearTextpasswords.md)
 - [0x5 Pass The Hash](https://github.com/Jewel591/OSCP-Tips/blob/master/PostExploit/WindowsPE/passthehash.md)
-3. [Windows AlwaysInstallElevated 策略](https://github.com/Jewel591/OSCP/blob/master/PostExploit/WindowsPE/AlwaysInstallElevated.md)
-4. Unattended Installs
-5. [内核提权](https://github.com/Jewel591/OSCP/blob/master/PostExploit/WindowsPE/Kernel_Exploit.md)
+- [0x6 Windows AlwaysInstallElevated 策略](https://github.com/Jewel591/OSCP/blob/master/PostExploit/WindowsPE/AlwaysInstallElevated.md)
+- [0x7 存在漏洞的驱动](https://github.com/Jewel591/OSCP-Tips/blob/master/PostExploit/WindowsPE/Vulnerabledrivers.md)
+- [0x8 内核漏洞提权](https://github.com/Jewel591/OSCP/blob/master/PostExploit/WindowsPE/Kernel_Exploit.md)
+
+- [0x9 向Windows主机上传文件](https://github.com/Jewel591/OSCP-Tips/blob/master/PostExploit/WindowsPE/filetransfer.md)
+- [0x10 Windows后渗透常用命令](https://github.com/Jewel591/OSCP-Tips/blob/master/PostExploit/WindowsPE/UsefulCommands.md)
 
 windows 服务提权工具：
 1. [Accesschk.exe](https://github.com/Jewel591/OSCP/blob/master/PostExploit/WindowsPE/Accesschk.md)
