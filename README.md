@@ -94,7 +94,7 @@ Windows系统与版本号对比：
 - [0x9 向Windows主机上传文件](https://github.com/Jewel591/OSCP-Tips/blob/master/PostExploit/WindowsPE/filetransfer.md)
 - [0x10 Windows后渗透常用命令](https://github.com/Jewel591/OSCP-Tips/blob/master/PostExploit/WindowsPE/UsefulCommands.md)
 
-windows 服务提权工具：
+Windows 自动化提权工具：
 1. [Accesschk.exe](https://github.com/Jewel591/OSCP/blob/master/PostExploit/WindowsPE/Accesschk.md)
 2. [BeRoot](https://github.com/AlessandroZ/BeRoot/tree/master/Windows)
 3. [winPEAS](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/winPEAS/winPEASexe/winPEAS/bin/Obfuscated%20Releases)
